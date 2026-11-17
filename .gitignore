@@ -1,0 +1,64 @@
+# 依赖与构建产物
+node_modules/
+vendor/
+dist/
+build/
+out/
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.o
+*.a
+*.so
+*.dylib
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# 日志与临时文件
+*.log
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*~
+
+# 编辑器与 IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.code-workspace
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# 环境与密钥（切勿提交）
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# 压缩包与大型数据
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.iso
